@@ -10,7 +10,7 @@
     <meta name="description" content="webmarkup assessment">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml">
-    <link rel="icon" sizes="16x16 32x32 64x64" href="img/icon/favicon.png">
+    <link rel="icon" sizes="16x16 32x32 64x64" href="img/icon/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="img/icon/favicon-180.png">
 
 </head>
@@ -34,7 +34,7 @@
         </ul>
     </nav>
 
-    <section id="maincontent">
+    <section id="maincontent" class="content">
         <header>
             <h2>About Haarlem</h2>
         </header>
@@ -58,8 +58,8 @@
             </p>
         </article>
 
-        <img id="picchurch" src="img/Church.png" alt="">
-        <img id="picmuseum" src="img/Museum.png" alt="">
+        <img id="picchurch" src="img/Church.png" title="Church" alt="">
+        <img id="picmuseum" src="img/Museum.png" title="Museum" alt="">
         <footer class="author">© Ohannes Hajjar </footer>
     </section>
 
@@ -68,7 +68,7 @@
             <h2>Cathedral of St Bavo</h2>
         </header>
 
-        <article id="haarlemarticle">
+        <article id="churcharticle">
             <p>
                 Haarlem has had a Christian parish church since the 9th century. This first church was a filial church
                 of Velsen, which itself was founded in 695 by Willibrord. It was a wooden church at the site of the
@@ -109,7 +109,7 @@
             <h2>Jiu Jitsu in Haarlem</h2>
         </header>
 
-        <article id="haarlemarticle">
+        <article id="fivearticle">
             <h4>Five21</h4>
             <a href="htts://five21.nl/" target="_blank"><img src="img/Five21.png" alt="Five21" title="Five21's website"></a>
             <p>
@@ -118,7 +118,7 @@
             </p>
         </article>
 
-        <article id="haarlemarticle">
+        <article id="Hwa-Rangarticle">
             <h4>Hwa-Rang Dragon</h4>
             <a href="http://www.taekwon.nl/brazilian-jiu-jitsu/" target="_blank"><img src="img/HwaRang.png" alt="Hwa-Ramg"
                     title="HwaRang's website"></a>
@@ -127,7 +127,7 @@
             </p>
         </article>
 
-        <article id="haarlemarticle">
+        <article id="BlackBeararticle">
             <h4>Black Bear Taekwondo</h4>
             <a href="https://amsterdamtaekwondo.nl/" target="_blank"><img src="img/BlackBear.png" alt="Black Bear"
                     title="BlackBear's website"></a>
@@ -137,7 +137,7 @@
             </p>
         </article>
 
-        <article id="haarlemarticle">
+        <article id="MunenMusoarticle">
             <h4>Munen Muso</h4>
             <a href="http://www.munenmuso.nl/" target="_blank"><img src="img/MunenMuso.png" alt="Munen Muso"
                     title="Munen Muso's website"></a>
@@ -147,7 +147,7 @@
             </p>
         </article>
 
-        <article id="haarlemarticle">
+        <article id="KarateClubarticle">
             <h4>Karate Club Haarlem</h4>
             <a href="https://drimble.nl/bedrijf/haarlem/k40597028/karate-club-haarlem-kch.html" target="_blank"><img
                     src="img/KarateClubHaarlem.png" alt="Karate Club Haarlem" title="Karate Club Haarlem's website"></a>
@@ -157,7 +157,7 @@
             </p>
         </article>
 
-        <article id="Gym Haarlem">
+        <article id="GymHaarlemarticle">
             <h4>Karate Club Haarlem</h4>
             <a href="https://gymhaarlem.nl/" target="_blank"><img src="img/GymHaarlem.png" alt="Gym Haarlem"
                     title="Gym Haarlem's website"></a>
@@ -167,7 +167,7 @@
             </p>
         </article>
 
-        <article id="Ryounkai Karate">
+        <article id="RyounkaiKaratearticle">
             <h4>Karate Club Haarlem</h4>
             <a href="https://www.ryounkai.nl/" target="_blank"><img src="img/RyounkaiKarate.png" alt="Ryounkai Karate"
                     title="Ryounkai Karate's website"></a>
@@ -176,7 +176,7 @@
             </p>
         </article>
 
-        <article id="Aikido Haarlem">
+        <article id="AikidoHaarlemarticle">
             <h4>Karate Club Haarlem</h4>
             <a href="https://www.aikidokennemerland.nl/" target="_blank"><img src="img/AikidoHaarlem.png"
                     alt="Aikido Haarlem" title="Aikido Haarlem's website"></a>
@@ -185,7 +185,7 @@
             </p>
         </article>
 
-        <article id="Kenamju Gym">
+        <article id="KenamjuGymarticle">
             <h4>Karate Club Haarlem</h4>
             <a href="https://www.kenamju.nl/" target="_blank"><img src="img/KenamjuGym.png" alt="Kenamju Gym"
                     title="Kenamju Gym's website"></a>
@@ -195,7 +195,7 @@
             </p>
         </article>
 
-        <article id="Sportclub HLC">
+        <article id="SportclubHLCarticle">
             <h4>Karate Club Haarlem</h4>
             <a href="https://sportclubhlc.jimdo.com/" target="_blank"><img src="img/SportclubHLC.png" alt="Sportclub HLC"
                     title="Sportclub HLC"></a>
@@ -212,10 +212,12 @@
 		<header>
 			<h2>Referral</h2>
 		</header>
-		<p>For more information about Brazilian Jiu Jitsu you you can go to taekwon.nl's webpage</p>
-		<aside>
-			<a href="http://www.taekwon.nl/brazilian-jiu-jitsu/" target="_blank"> here </a>
-        </aside>
+        <aside>
+		<p>
+            For more information about Brazilian Jiu Jitsu you you can go to taekwon.nl's webpage
+            <a href="http://www.taekwon.nl/brazilian-jiu-jitsu/" target="_blank"> here. </a>
+        </p>
+            </aside>
         <footer class="author">© Ohannes Hajjar </footer>
     </section>
 
@@ -224,13 +226,33 @@
             <h2>Questions? Contact Us!</h2>
         </header>
 
-        <article id="haarlemarticle">
-            <p>
-            </p>
+        <article>
+            <form action="http://witan.nl/inholland/testform.php">
+                <fieldset>
+                 <legend>Form</legend>
+                 <label for="name">Name:</label>  <input id="name" type="text" name="name" placeholder="Your name">
+                 <label for="email">Email:</label>  <input id="email" type="text" name="email" placeholder="Your email">
+                 <label for="message">Message:</label>  <input id="message" type="text" name="message" placeholder="Your Message">
+                 <input type="submit" value="Send Message">
+                </fieldset>
+            </form>
         </article>
 
         <footer class="author">© Ohannes Hajjar </footer>
     </section>
+
+    <section id="cookies">
+        <h4>Cookies Enabled!</h4>
+        <p>
+            Cookies are enables on this website for optimal experiece.
+            <a href="http://www.whatarecookies.com/" target="_blank">What are cookies?</a>
+        </p>
+        </section>
+
+    <footer class="author">
+        © Ohannes Hajjar
+        <a href="sitemap.xml" target="_blank">Sitemap</a>
+     </footer>
 </body>
 
 </html>
