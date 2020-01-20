@@ -105,22 +105,23 @@ input[type=text]
     background-color: #FFFFFF;
     z-index: 2;
 }
+
 #message{
     padding-bottom: 60px;
 }
+
 button[type=submit] {
     width: 100%;
     background-color: #444444;
-    color: #FFFFFF;
-    padding: 14px 20px;
-    margin: 14px 0;
+    margin: 15px 0;
+    padding: 15px 10px;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
+    color: #7a7878;
     cursor: pointer;
     font-size: 20px;
-    text-shadow: 1px 1px #000000;
-    
 }
+
 button[type=submit]:hover {
     background-color: #707070;
 }
@@ -130,3 +131,17 @@ button[type=submit]:hover {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
+#cookies
+{
+    background-color: #444443;
+}
+
+footer
+{
+    padding: 0 50px 0 50px;  
+}
+
+.contactfooter
+{
+    background-color: #444444;
+}
