@@ -16,9 +16,7 @@ video
 
 body
 {
-   background-color: #fff; 
    position: relative;
-   background: transparent;
 }
 
 h1
@@ -48,15 +46,87 @@ h4
     font-size: 15pt; 
 }
 
-img
+.content img
 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 20%;
 }
 
 .content
 {
-    background-color: green;
+    background-color: #453d41;
 }
+
+.content p
+{
+    margin: 10px 20px 0px 20px;
+}
+
+.contentsport
+{
+    background-color: #453d41;
+}
+.contentsport img
+{
+    display: block;
+    margin-left: 50px;
+    margin-right: auto;
+    width: 20%;
+}
+
+form
+{
+    padding: 0 50px 0 50px;  
+}
+
+fieldset
+{
+    padding: 50px 50px 50px 50px; 
+    background-color: #575454;
+    border-radius: 6px;
+}
+
+input
+{
+      opacity: 1;
+}
+
+input[type=text]
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc ;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    z-index: 2;
+}
+#message{
+    padding-bottom: 60px;
+}
+button[type=submit] {
+    width: 100%;
+    background-color: #444444;
+    color: #FFFFFF;
+    padding: 14px 20px;
+    margin: 14px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    text-shadow: 1px 1px #000000;
+    
+}
+button[type=submit]:hover {
+    background-color: #707070;
+}
+
+.container
+{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
