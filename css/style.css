@@ -66,6 +66,9 @@ h4
 
 .contentsport
 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     background-color: #453d41;
 }
 .contentsport img
@@ -76,6 +79,7 @@ h4
     width: 20%;
 }
 
+/*content style*/
 form
 {
     padding: 0 50px 0 50px;  
@@ -145,3 +149,39 @@ footer
 {
     background-color: #444444;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li 
+  {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  video
+  {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -5;
+  }
