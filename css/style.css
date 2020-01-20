@@ -1,7 +1,13 @@
+@font-face 
+{
+    font-family: 'AdventPro-Lig';
+    src: url('fonts/AdventPro-Light.ttf');
+}
+
 html
 {
   scroll-behavior: smooth;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'AdventPro-Lig', Helvetica, sans-serif;
 }
 
 video 
@@ -184,4 +190,14 @@ ul {
     min-width: 100%;
     min-height: 100%;
     z-index: -5;
+  }
+
+  @media screen and (max-width: 480px)
+  {
+    nav
+    {
+        position: fixed;
+        top: 0;
+        font-size: 10px;
+    }
   }
