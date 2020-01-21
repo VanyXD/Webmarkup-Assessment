@@ -7,7 +7,7 @@
 html
 {
   scroll-behavior: smooth;
-  font-family: 'AdventPro-Lig', Helvetica, sans-serif;
+  font-family: 'AdventPro-Lig', Helvetica, Arial, sans-serif;
 }
 
 video 
@@ -28,8 +28,8 @@ body
 h1
 {
     font-size: 50pt;
-    text-shadow: 2px 1px #FFF;
-    color:#000;
+    text-shadow: 2px 1px #FFFFFF;
+    color:#000000;
     padding-top: 0;
     text-align: center;
     margin-bottom: 0px;
@@ -39,8 +39,8 @@ h1
 h2
 {
     font-size: 30pt;
-    text-shadow: 2px 1px #FFF;
-    color:#000;
+    text-shadow: 2px 1px #FFFFFF;
+    color:#000000;
     padding-top: 0;
     text-align: center;
     margin-bottom: 0px;
@@ -109,7 +109,7 @@ input[type=text]
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc ;
+    border: 1px solid #F5F5F5 ;
     border-radius: 4px;
     box-sizing: border-box;
     background-color: #FFFFFF;
@@ -161,7 +161,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #AAAAAA;
   }
   
   li 
@@ -179,7 +179,7 @@ ul {
   }
   
   li a:hover {
-    background-color: #111;
+    background-color: #707070;
   }
 
   video
@@ -190,6 +190,11 @@ ul {
     min-width: 100%;
     min-height: 100%;
     z-index: -5;
+  }
+
+  a, a :visited
+  {
+    color: #2699FB;
   }
 
   @media screen and (max-width: 480px)
